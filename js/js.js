@@ -117,15 +117,6 @@ window.onload = function () {
 	}
 
 }
-// 百度统计代码开始，请删除或者修改成自己的
-var _hmt = _hmt || [];
-(function () {
-	var hm = document.createElement("script");
-	hm.src = "https://hm.baidu.com/hm.js?b556d06a5110a1a17fa2ceb5cb8a4acb";
-	var s = document.getElementsByTagName("script")[0];
-	s.parentNode.insertBefore(hm, s);
-})();
-// 百度统计代码结束
 
 $(function () {
 	// $('body').height($('body')[0].clientHeight);
@@ -254,12 +245,9 @@ $('.Select-box-2 li').click(function () {
 	var _tihs = $(this).attr('class');
 	var _html = $(this).html();
 	var _name = 'q';
-	if (_tihs == 'this_s') {
-		return "";
-	}
 	if (_tihs == 'ff_s') {
-			_tihs = 'https://fsoufsou.com/search';
-			_name = 'q';
+		_tihs = 'https://fsoufsou.com/search';
+		_name = 'q';
 	} else if (_tihs == 'google_s') {
 		_tihs = 'https://www.google.com/search';
 		_name = 'q';
@@ -272,8 +260,7 @@ $('.Select-box-2 li').click(function () {
 	} else if (_tihs == 'baidu_s') {
 		_tihs = 'https://www.baidu.com/s';
 		_name = 'wd';
-	} 
-	else {
+	} else {
 		_tihs = 'https://fsoufsou.com/search';
 		_name = 'q';
 	}

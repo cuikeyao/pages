@@ -140,7 +140,6 @@ body {
 	border-top: 2px solid #FFF;
 	border-bottom: 2px solid #FFF;
 	display: inline-block;
-
 }
 
 .min-tit{
@@ -184,7 +183,7 @@ body {
 	z-index: 9999;
 	background: rgba(255,255,255,0.9);
 	border: none;
-	overflow: hidden
+	overflow: hidden;
 	}
 .Select-box-2 li{
 	width: 60px;
@@ -329,6 +328,7 @@ div#baidu {
     width: calc(100% - 160px);
     position: relative;
     box-sizing: border-box;
+	background-color: white;
 }
 
 div#qingkong {
