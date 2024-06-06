@@ -1,6 +1,6 @@
 # 个人导航网站
 
-https://home.cuikeyao.com
+https://home.cuikeyao.cn
 
 这个项目是一个个人导航网站，使用HTML，JS和CSS开发。它提供了一个简单的静态页面，方便用户访问各种链接和资源。
 
